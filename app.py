@@ -8,7 +8,7 @@ csrf = CSRFProtect(app)
 
 @app.route("/")
 def pagina_inicial():
-    return "Removido problema de seguranca"
+    return "Run App Cristian Tertuliano"
 
 if __name__ == '__main__':
     app.run()
